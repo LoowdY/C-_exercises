@@ -1,2 +1,2 @@
-# C-_exercises
+# C++ exercises
 Some random C++ exercises 
