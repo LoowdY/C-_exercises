@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float m, g, h, x, k;
+    g = 9.8;
+ 
+    
+    cout << "Digite M\n";
+    cin >> m;
+     cout << "Digite h\n";
+    cin >> h;
+     cout << "Digite x\n";
+    cin >> x ;
+    
+    float emi, emf;
+    
+    emi = m*h*g;
+    emf = m* g * (h-x);
+    cout <<"ENERGIA MECANICA INICIAL\n\n"<< emi << endl;
+    cout <<"ENERGIA MECANICA FINAL\n\n"<< emf << endl;
+    
+    
+    
+    
+    
+    return 0;
+}
